@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');  
+
+.font-gaming {  
+  font-family: 'Rajdhani', sans-serif;  
+}  
+
+/* Opcional: Adicione uma animação de neon */  
+@keyframes neon-pulse {  
+  0%, 100% {  
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.7),  
+                 0 0 20px rgba(255, 215, 0, 0.5),  
+                 0 0 30px rgba(255, 215, 0, 0.3);  
+  }  
+  50% {  
+    text-shadow: 0 0 15px rgba(255, 215, 0, 0.9),  
+                 0 0 25px rgba(255, 215, 0, 0.7),  
+                 0 0 35px rgba(255, 215, 0, 0.5);  
+  }  
+}
+
+
+.swiper-button-next,  
+.swiper-button-prev {  
+    width: 40px !important;
+    height: 40px !important;  
+    color: #666 !important;
+}  
+
+.swiper-button-next::after,  
+.swiper-button-prev::after {  
+    font-size: 20px !important;
+    font-weight: bold !important;  
+}  
+
+.swiper-button-next:hover,  
+.swiper-button-prev:hover {  
+    color: #333 !important;  
+}  
+
+.swiper-button-prev {  
+    left: -5px !important;  
+}  
+.swiper-button-next {  
+    right: -5px !important;  
+}
+.avaliacoes-swiper {  
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),   
+                0 2px 4px -1px rgba(0, 0, 0, 0.06);  
+}  
